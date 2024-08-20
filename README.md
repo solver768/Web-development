@@ -51,6 +51,7 @@ void insertion (int ele)
         a[i]=a[x];
         a[x]=t;
         i=x;
+        x=i/2;
     }
 }
 void deletion()
@@ -78,14 +79,14 @@ void deletion()
         y=-9999;
         if(a[i]>=a[x] && a[i]>=a[y])
         flag=1;
-        else if(a[i]<a[x] &&x>=y)
+        else if(a[i]<a[x] &&a[x]>=a[y])
         {
             t=a[i];
         a[i]=a[x];
         a[x]=t;
         i=2*i;
         }
-        else if(a[i]<a[y] &&y>=x)
+        else if(a[i]<a[y] &&a[y]>=[x])
         {
             t=a[i];
             a[i]=a[y];
