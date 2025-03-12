@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial-scale:1.0">
+<title>JS internal and external embed</title>
+<script src="file1.js" ></script>
+<style>
+h2,h3{
+color:darkblue;
+text-decoration:underline;
+}
+p{
+color:blue;
+}
+button{
+   border:2px darkbulue;
+   background-color:lightblue;
+   color:darkblue;
+   margin: 2px;
+   padding:2px;
+}
+
+</style>
+</head>
+<body>
+<h2>JAVASCRIPT can be embed in 3 three ways :</h2>
+<p>
+<strong>Internal Javascript:</strong>This can be embed in the html code either within head tag or in body tag
+</p>
+<p>
+<strong>External JavaScript:</strong>This can be embed in the html code with link of javascript file with the extension of "filename.js"
+</p>
+<p>
+<strong>Inline JavaScript:</strong>this can be embed with the tags as a property using keywords like alert or warning messages ,onclick , onhover mouse events.
+</p> 
+<h3>Internal javascript</h3>
+<p>
+<script>
+document.write("This is internal JavaScript");
+</script>
+</p>
+<h3>External javascript</h3>
+<p> Here the function is executed by clicking on "Click me!" button is in the external file.</p>
+<button type="button" onclick="my_func()">Click me!</button>
+</body>
+</html>
