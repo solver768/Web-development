@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS outputs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2><u>Types of outputs in JavaScript</u></h2>
+    <ol>
+      <li>
+      <p><strong>innerHTML property</strong></p>
+      <p id="first"></p>
+      
+      </li>
+      <li>
+          <p><strong>console.log()</strong></p>  
+          <p>This is used for debugging and testing of the code at development stage and the output displays on console.</p>
+  </li>
+  <li>   
+      <p><strong>document.write()</strong></p>
+      <p>This is to display the content directly on the web page.</p>
+      <p> By clicking the display button you can see the output.</p>
+      <button type="button" onclick="display()">Display</button>
+  </li>
+  <li>
+      <p><strong>window.alert()</strong></p>
+      <p>It is used to get an alert message box with the ok button on the botton right of the popped message</p>
+      <button type="button" onclick="alert_func()">Alert!</button>
+  </li>
+  <li>
+      <p><strong>window.print()</strong></p>
+      <p>It is used to get the print dialouge box which can print the current page.</p>
+      <p>By clicking print button you can print the current page.</p>
+      <button type="button" onclick="print_func()">Print</button>
+  </li>
+  <li>
+      <p><strong>window.prompt()</strong></p>
+      <p>It cann't give the output directly but it can ask the user to prompt and take the input.</p>
+      <p>To get user input by prompting click the promt button.</p>
+      <button type="button" onclick="prompt_func()">Prompt</button>
+      
+  </li>
+  <li>
+    <p><strong>console.error()</strong></p>
+    <p>
+      It can be to get error message and can be used within asynchronous functions, promises, or callbacks<br>
+      to log errors when they occur, helping trace issues in asynchronous code flows.
+      <br>Can be seen in console.
+    </p>
+    <button type="button" onclick="checkError_func()">Check error!</button>
+  </li>
+</ol>
+ <script src="file2.js"></script>
+</body> 
+</html>
+  </body>
+</html>
